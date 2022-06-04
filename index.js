@@ -8,7 +8,7 @@ app.get("/extensions/:slug", (req, res) => {
   fs.existsSync(`${process.cwd()}/exts/${req.params.slug}.js`)
     ? loadExtension()
     : res.send(
-        "There was a problem loading this extension, either it doesn't exist or something else happened"
+        "There was a problem loading this extension, either it doesn't exist or something else happened."
       );
 
   function loadExtension() {
