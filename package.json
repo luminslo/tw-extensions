@@ -1,9 +1,11 @@
 {
   "name": "tw-extensions",
   "version": "1.0.0",
-  "description": "🦒Custom Extensions for TW, that's about it...",
+  "description": "🦒 Custom Extensions for TW, that's about it...",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
   "scripts": {
     "start": "node ."
   },
@@ -21,6 +23,7 @@
     "express": "^4.18.1",
     "fs": "^0.0.1-security",
     "path": "^0.12.7",
+    "uuid": "^8.3.2",
     "vercel": "^25.0.0"
   },
   "engines": {
